@@ -24,7 +24,7 @@ client.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "12s") {
+    if(command == ".2s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -41,7 +41,7 @@ client2.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "2s") {
+    if(command == ".3s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -58,7 +58,7 @@ client3.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "3s") {
+    if(command == ".4s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -75,7 +75,7 @@ client4.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "4s") {
+    if(command == ".5s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -92,7 +92,7 @@ client5.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "5s") {
+    if(command == ".6s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -109,7 +109,7 @@ client6.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "6s") {
+    if(command == ".7s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -126,7 +126,7 @@ client7.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "7s") {
+    if(command == ".8s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -143,7 +143,7 @@ client8.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "8s") {
+    if(command == ".9s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -160,7 +160,7 @@ client9.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "9s") {
+    if(command == ".10s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -177,7 +177,7 @@ client10.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "10s") {
+    if(command == ".11s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -194,7 +194,7 @@ client11.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == "11s") {
+    if(command == ".12s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
