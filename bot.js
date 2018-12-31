@@ -13,6 +13,9 @@ const client11 = new Discord.Client();
  
 console.log("Code By ReeeBeL.");
 client.on("ready", () => {
+ 
+
+client.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -24,12 +27,27 @@ client.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s1") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "1"
+client.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client2.on("ready", () => {
+ ////////////////////////////////
+ 
+ client2.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -41,12 +59,28 @@ client2.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s2") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "2"
+client2.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client3.on("ready", () => {
+ /////////////////////////////////
+ 
+ 
+ client3.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -61,9 +95,24 @@ client3.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "3"
+client3.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client4.on("ready", () => {
+ /////////////////////////////////////
+ 
+ client4.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -75,12 +124,28 @@ client4.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s4") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "4"
+client4.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client5.on("ready", () => {
+ //////////////////////////////////////
+
+ 
+ client5.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -92,12 +157,27 @@ client5.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s5") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "5"
+client5.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client6.on("ready", () => {
+ //////////////////////////////////
+ 
+ client6.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -109,12 +189,27 @@ client6.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s6") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "6"
+client6.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client7.on("ready", () => {
+ ///////////////////////////
+ 
+ client7.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -126,12 +221,27 @@ client7.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s7") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "7"
+client7.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client8.on("ready", () => {
+ //////////////////////////
+ 
+ client8.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -143,12 +253,28 @@ client8.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s8") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "8"
+client8.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client9.on("ready", () => {
+ 
+ ///////////////////////////////////
+ 
+ client9.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -160,12 +286,27 @@ client9.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s9") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "9"
+client9.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client10.on("ready", () => {
+ /////////////////////////////////////////
+ 
+ client10.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -177,12 +318,27 @@ client10.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s10") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "10"
+client10.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
  
-client11.on("ready", () => {
+ /////////////////////////////////
+ 
+ client11.on("ready", () => {
 let channel =     client.channels.get("526866932419395597")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
@@ -194,18 +350,32 @@ client11.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
    
-    if(command == ".s11") {
+    if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
+})
+
+
+var prefix = "11"
+client11.on('message', message => {
+if (message.content.startsWith(prefix + "say")) {
+var args = message.content.split(" ")
+args = args.join(" ").slice(args[0].length);
+
+if (!args) return;
+
+message.channel.send(args);
+};
 });
-client.login(process.env.BOT_TOKEN);
-client.login(process.env.BOT_TOKEN2);
-client.login(process.env.BOT_TOKEN3);
-client.login(process.env.BOT_TOKEN4);
-client.login(process.env.BOT_TOKEN5);
-client.login(process.env.BOT_TOKEN6);
-client.login(process.env.BOT_TOKEN7);
-client.login(process.env.BOT_TOKEN8);
-client.login(process.env.BOT_TOKEN9);
-client.login(process.env.BOT_TOKEN10);
-client.login(process.env.BOT_TOKEN11);
+ 
+client.login(process.env.TOKEN);
+client2.login(process.env.TOKEN2);
+client3.login(process.env.TOKEN3);
+client4.login(process.env.TOKEN4);
+client5.login(process.env.TOKEN5);
+client6.login(process.env.TOKEN6);
+client7.login(process.env.TOKEN7);
+client8.login(process.env.TOKEN8);
+client9.login(process.env.TOKEN9);
+client10.login(process.env.TOKEN10);
+client11.login(process.env.TOKEN11);
