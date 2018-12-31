@@ -16,7 +16,7 @@ client.on("ready", () => {
  
 
 client.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -48,7 +48,7 @@ message.channel.send(args);
  ////////////////////////////////
  
  client2.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -81,7 +81,7 @@ message.channel.send(args);
  
  
  client3.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -113,7 +113,7 @@ message.channel.send(args);
  /////////////////////////////////////
  
  client4.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -146,7 +146,7 @@ message.channel.send(args);
 
  
  client5.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -178,7 +178,7 @@ message.channel.send(args);
  //////////////////////////////////
  
  client6.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -210,7 +210,7 @@ message.channel.send(args);
  ///////////////////////////
  
  client7.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -242,7 +242,7 @@ message.channel.send(args);
  //////////////////////////
  
  client8.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -275,7 +275,7 @@ message.channel.send(args);
  ///////////////////////////////////
  
  client9.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -307,7 +307,7 @@ message.channel.send(args);
  /////////////////////////////////////////
  
  client10.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
@@ -339,7 +339,7 @@ message.channel.send(args);
  /////////////////////////////////
  
  client11.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("529086002518687744")
 setInterval(function() {
 channel.send(`Reeebel Is King .. Heeee8 !`);
 }, 25)
