@@ -42,7 +42,9 @@ if (!args) return;
 message.channel.send(args);
 };
 });
- 
+
+client.login(process.env.TOKEN);
+
  ////////////////////////////////
  
  client2.on("ready", () => {
@@ -74,7 +76,9 @@ if (!args) return;
 message.channel.send(args);
 };
 });
- 
+
+client2.login(process.env.TOKEN2);
+
  /////////////////////////////////
  
  
@@ -107,7 +111,9 @@ if (!args) return;
 message.channel.send(args);
 };
 });
- 
+
+client3.login(process.env.TOKEN3);
+
  /////////////////////////////////////
  
  client4.on("ready", () => {
@@ -139,6 +145,8 @@ if (!args) return;
 message.channel.send(args);
 };
 });
+
+client4.login(process.env.TOKEN4);
  
  //////////////////////////////////////
 
@@ -172,6 +180,8 @@ if (!args) return;
 message.channel.send(args);
 };
 });
+
+client5.login(process.env.TOKEN5);
  
  //////////////////////////////////
  
@@ -204,7 +214,9 @@ if (!args) return;
 message.channel.send(args);
 };
 });
- 
+
+client6.login(process.env.TOKEN6);
+
  ///////////////////////////
  
  client7.on("ready", () => {
@@ -237,6 +249,8 @@ message.channel.send(args);
 };
 });
  
+client7.login(process.env.TOKEN7);
+
  //////////////////////////
  
  client8.on("ready", () => {
@@ -269,6 +283,7 @@ message.channel.send(args);
 };
 });
  
+client8.login(process.env.TOKEN8);
  
  ///////////////////////////////////
  
@@ -301,6 +316,8 @@ if (!args) return;
 message.channel.send(args);
 };
 });
+
+client9.login(process.env.TOKEN9);
  
  /////////////////////////////////////////
  
@@ -333,6 +350,8 @@ if (!args) return;
 message.channel.send(args);
 };
 });
+
+client10.login(process.env.TOKEN10);
  
  /////////////////////////////////
  
@@ -366,14 +385,4 @@ message.channel.send(args);
 };
 });
  
-client.login(process.env.TOKEN);
-client2.login(process.env.TOKEN2);
-client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
-client5.login(process.env.TOKEN5);
-client6.login(process.env.TOKEN6);
-client7.login(process.env.TOKEN7);
-client8.login(process.env.TOKEN8);
-client9.login(process.env.TOKEN9);
-client10.login(process.env.TOKEN10);
 client11.login(process.env.TOKEN11);
