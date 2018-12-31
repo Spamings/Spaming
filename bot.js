@@ -84,7 +84,7 @@ message.channel.send(args);
  client3.on("ready", () => {
 let channel =     client.channels.get("529085889775927299")
 setInterval(function() {
-channel.send(`Reeebel Is King .. Heeee8 !3`);
+channel.send(`Reeebel Is King .. Heeee8 !2`);
 }, 25)
 })
  
@@ -110,7 +110,6 @@ if (!args) return;
 message.channel.send(args);
 };
 });
-
 
  /////////////////////////////////////
  
