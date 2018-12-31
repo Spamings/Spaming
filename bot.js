@@ -12,8 +12,6 @@ const client10 = new Discord.Client();
 const client11 = new Discord.Client();
  
 console.log("Code By ReeeBeL.");
-client.on("ready", () => {
- 
 
 client.on("ready", () => {
 let channel =     client.channels.get("529085889775927299")
@@ -30,7 +28,7 @@ client.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "1"
@@ -62,7 +60,7 @@ client2.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "2"
@@ -95,7 +93,7 @@ client3.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "3"
@@ -127,7 +125,7 @@ client4.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "4"
@@ -160,7 +158,7 @@ client5.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "5"
@@ -192,7 +190,7 @@ client6.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "6"
@@ -224,7 +222,7 @@ client7.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "7"
@@ -256,7 +254,7 @@ client8.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "8"
@@ -289,7 +287,7 @@ client9.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "9"
@@ -321,7 +319,7 @@ client10.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "10"
@@ -353,7 +351,7 @@ client11.on("message", function(message) {
     if(command == ".s3") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
-})
+});
 
 
 var prefix = "11"
@@ -368,14 +366,14 @@ message.channel.send(args);
 };
 });
  
-client.login(process.env.TOKEN);
-client2.login(process.env.TOKEN2);
-client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
-client5.login(process.env.TOKEN5);
-client6.login(process.env.TOKEN6);
-client7.login(process.env.TOKEN7);
-client8.login(process.env.TOKEN8);
-client9.login(process.env.TOKEN9);
-client10.login(process.env.TOKEN10);
+client.login(process.env.TOKEN)
+client2.login(process.env.TOKEN2)
+client3.login(process.env.TOKEN3)
+client4.login(process.env.TOKEN4)
+client5.login(process.env.TOKEN5)
+client6.login(process.env.TOKEN6)
+client7.login(process.env.TOKEN7)
+client8.login(process.env.TOKEN8)
+client9.login(process.env.TOKEN9)
+client10.login(process.env.TOKEN10)
 client11.login(process.env.TOKEN11);
