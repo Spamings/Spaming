@@ -77,7 +77,6 @@ message.channel.send(args);
 };
 });
 
-client2.login(process.env.TOKEN2);
 
  /////////////////////////////////
  
@@ -112,7 +111,6 @@ message.channel.send(args);
 };
 });
 
-client3.login(process.env.TOKEN3);
 
  /////////////////////////////////////
  
@@ -146,7 +144,6 @@ message.channel.send(args);
 };
 });
 
-client4.login(process.env.TOKEN4);
  
  //////////////////////////////////////
 
@@ -181,7 +178,6 @@ message.channel.send(args);
 };
 });
 
-client5.login(process.env.TOKEN5);
  
  //////////////////////////////////
  
@@ -215,7 +211,6 @@ message.channel.send(args);
 };
 });
 
-client6.login(process.env.TOKEN6);
 
  ///////////////////////////
  
@@ -249,7 +244,6 @@ message.channel.send(args);
 };
 });
  
-client7.login(process.env.TOKEN7);
 
  //////////////////////////
  
@@ -283,7 +277,6 @@ message.channel.send(args);
 };
 });
  
-client8.login(process.env.TOKEN8);
  
  ///////////////////////////////////
  
@@ -317,7 +310,6 @@ message.channel.send(args);
 };
 });
 
-client9.login(process.env.TOKEN9);
  
  /////////////////////////////////////////
  
@@ -351,7 +343,6 @@ message.channel.send(args);
 };
 });
 
-client10.login(process.env.TOKEN10);
  
  /////////////////////////////////
  
@@ -385,4 +376,25 @@ message.channel.send(args);
 };
 });
  
+
+client.login(process.env.TOKEN2);
+
+client2.login(process.env.TOKEN2);
+
+client3.login(process.env.TOKEN3);
+
+client4.login(process.env.TOKEN4);
+
+client5.login(process.env.TOKEN5);
+
+client6.login(process.env.TOKEN6);
+
+client7.login(process.env.TOKEN7);
+
+client8.login(process.env.TOKEN8);
+
+client9.login(process.env.TOKEN9);
+
+client10.login(process.env.TOKEN10);
+
 client11.login(process.env.TOKEN11);
